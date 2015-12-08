@@ -10,7 +10,7 @@ public static void main(String[] args) {
 }
 @Test
 public void testSplit(){
-     String s=" , ";//s=","
+     String s=" 123, ";//s=","
    System.out.println(s.split(",").length);
     assertTrue(s.split(",").length>0);
 }

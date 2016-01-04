@@ -11,8 +11,9 @@ public class TestDouble {
         double d=l2;
         int a1=(int) a;
         System.out.println(l+" "+l2+" "+d+" "+a1);
-        
+        System.out.println(a/2);
     }
+    
     @Test
     void test(){
         double a=1.0;
